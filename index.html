@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jonelle Juan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2058c94c34.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <!--here-->
+    <div class="back-to-top">
+        <a href="#header">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>    
+
+
+
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="images/Logoo.png" class="Logoo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Education</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+     <div class = "header-text">
+        <h1> Hi, I'm <span>Jonelle Juan</span> ! </h1>
+        <h2>Bachelor of Science in Information Technology</h2>
+        <h3 style="text-align: justify;">Welcome to my online portfolio, where my achievements and creativity come to life. Dive into my world of accomplishments and recognitions, and get to know me through my work. Thank you for visiting!</h3>
+        <div id="clock" class="clock">
+        </div>
+    </div>
+</div>
+</div>
+
+<!----------------------about----------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Solo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">My <span> Education</span></h1>
+                &nbsp
+                <p style="text-align: justify;"> I'm a second-year student pursuing a Bachelor of Science in Information Technology at Tarlac Agricultural University. In addition, I am proud to be a part of the Camiling Scholars Association - an LGU scholarship program that has supported my educational endeavors for the past eight years - a testament to my dedication and commitment to my studies. Join me in exploring the various sections below to learn more about my educational journey and major accolades over the years.</p>
+                &nbsp
+                &nbsp
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('primary')">Primary</p>
+                    <p class="tab-links" onclick="opentab('secondary')">Secondary</p>
+                    <p class="tab-links" onclick="opentab('tertiary')">Tertiary</p>
+                    <p class="tab-links" onclick="opentab('others')">Others</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="primary">
+                    <ul>
+                        <li style="line-height: 1.3;">School:<span1><b>  &nbsp BOBON FIRST - PALIMBO PROPER ELEMENTARY SCHOOL</b></span1></li>
+                        <li style="line-height: 1.3;"><span>2015-2016</span><br>First Honors - Class Valedictorian <br>Acedemic Excellence Awardee</li>
+                        <li style="line-height: 1.3;"><span>2014-2015</span><br>First Honors</li>
+                        <li style="line-height: 1.3;"><span>2013-2014</span><br>First Honors</li>
+                        <li style="line-height: 1.3;"><span>2012-2013</span><br>Second Honors</li>
+                        <li style="line-height: 1.3;"><span>2011-2012</span><br>Second Honors</li>
+                        <li style="line-height: 1.3;"><span>2010-2011</span><br>Fourth Honors</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="secondary">
+                    <ul>
+                        <li style="line-height: 1.3;">School:<span1><b>  &nbsp TARLAC AGRICULTURAL UNIVERSITY - LABORATORY SCHOOL</b></span1></li>
+                        <li style="line-height: 1.3;"><span>2021-2022</span><br>With Highest Honors - Class Valedictorian <br>Outstanding Accountancy and Business Management [ABM] Student</li>
+                        <li style="line-height: 1.3;"><span>2020-2021</span><br>With High Honors</li>
+                        <li style="line-height: 1.3;"><span>2019-2020</span><br>With Honors</li>
+                        <li style="line-height: 1.3;"><span>2018-2019</span><br>With Honors</li>
+                        <li style="line-height: 1.3;"><span>2017-2018</span><br>With Honors</li>
+                        <li style="line-height: 1.3;"><span>2016-2017</span><br>None</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="tertiary">
+                    <ul>
+                        <li style="line-height: 1.3;">School:<span1><b>  &nbsp TARLAC AGRICULTURAL UNIVERISTY - COLLEGE OF ENGINEERING AND TECHNOLOGY</b></span1></li>
+                        <li style="line-height: 1.3;"><span>2022-2023 Second Semester</span><br>President's Lister</li>
+                        <li style="line-height: 1.3;"><span>2022-2023 First Semester</span><br>Dean's Lister</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="others">
+                    <ul>
+                        <li style="line-height: 1.3;"><span>2021</span> <span><br> <i>Course:</i></span> Scholarly Communication [A month-long online non-credit course] <br><span><i>Platform:</i></span> Coursera<br> <span><i>Authorized by:</i></span> Moscow Institute of Physics and Technology</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------services----------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My <span>Skills</span></h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-book-bookmark"></i>
+                <h2>Research Proficiency</h2>
+                <p>I excel in qualitative and quantitative research, enabling data-driven decision-making and complex problem-solving.</p>
+                <a href="#portfolio">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h2>Video Editing Expertise</h2>
+                <p>Skilled in Filmora, PowerDirector, CapCut, and more for creating polished, engaging video content.</p>
+                <a href="#portfolio">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-regular fa-image"></i>
+                <h2>Photography Prowess</h2>
+                <p>Adept at capturing visually compelling images, telling impactful visual stories.</p>
+                <a href="#portfolio">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!----------------------portfolio----------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My <span>Works</span></h1>
+        <div class="worklist">
+            
+            <div class="work">
+                <img src="images/img1.jpg">
+                <div class="layer">
+                    <h3>Research Papers</h3>
+                    <p>Explore a collection of my research papers, showcasing in-depth investigations and analyses in various fields.</p>
+                    <a href="https://drive.google.com/drive/folders/1HUFh_eY3VWrwyLEJux96s9tFBk6n_jBK?usp=sharing"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/img2.jpg">
+                <div class="layer">
+                    <h3>Edited Videos</h3>
+                    <p>Delve into my video editing portfolio, featuring projects crafted with precision using various software editing applications.</p>
+                    <a href="https://drive.google.com/drive/folders/1rWk1FsHKyQWBxTWtf7SHqxcQE4onF0bn?usp=sharing"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/img3.jpg">
+                <div class="layer">
+                    <h3>Captured Photos</h3>
+                    <p>Explore my world through the lens. A visual journey of unique moments and stories captured in single frames.</p>
+                    <a href="https://drive.google.com/drive/folders/1bqNeV242ED7QMc0D--a__ZPXl5jSVLqW?usp=sharing"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----------------------contact----------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="subtitle">Contact <span>Me</span></h1>
+                <p> <i class="fa-regular fa-envelope"></i> jjpatricio@tau.edu.ph</p>
+                <p> <i class="fa-solid fa-phone"></i> 0929-260-9741</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jipiieee?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=13rnxwmhjmwzj&utm_content=eqng03f"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/jipiieee"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://join.skype.com/invite/xeV8bx0K2yjd"><i class="fa-brands fa-skype"></i></a>
+                </div>
+
+                <a href="images/Jonelle-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn3">Send</button>
+                </form>
+
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <img src="images/logobelow.png" class="logobelow">
+    </div>
+
+
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtQYcovWLAR0qeOUxo775q4fOuFw-e3o6S2CtnQHtDz8tzqrVdr2IBZ5LYLcMNGNc4uQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " ✔  Your message was sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    function updateTime() {
+        const now = new Date();
+        const hours = now.getHours();
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        const seconds = now.getSeconds().toString().padStart(2, '0');
+        
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+        const displayHours = hours % 12 || 12; // Convert to 12-hour format
+        
+        const clockElement = document.getElementById('clock');
+        clockElement.textContent = `${displayHours}:${minutes}:${seconds} ${ampm}`;
+}
+
+setInterval(updateTime, 1000);
+updateTime();
+
+
+  </script>
+
+<script src="script.js"></script>
+
+<script>
+    window.addEventListener('scroll', function() {
+    const backToTop = document.querySelector('.back-to-top');
+    if (window.scrollY > 200) {
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+</script>
+
+
+
+
+
+
+</body>
+</html>
